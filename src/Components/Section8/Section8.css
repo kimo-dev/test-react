@@ -1,0 +1,46 @@
+.container-section8 {
+
+    margin: 0 25% 0 25%;
+     background-image: url('../../images/newsletter-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 400px;
+}
+
+.header-section8  h1 {
+    color: black;
+    font-style: bold;
+    padding-top: 80px;
+}
+
+.body-section8{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    align-items: center;
+}
+
+.body-section8 input {
+    border-radius: 6px;
+    border-color: white;
+    width: 50%;
+    height: 40px;
+    color: white;
+}
+
+.body-section8 input::placeholder{
+    text-align: center;
+ }
+
+.subs-button{
+    
+    background-color: blueviolet;
+    border-radius: 6px;
+    border-color: blueviolet;
+    width: 50%;
+    height: 40px;
+    color: white;
+    margin-top: 20px;
+}

@@ -1,0 +1,43 @@
+.container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    padding-left: 25%;
+}
+
+.box {
+    width: 30%;
+    /* height: 650px;
+    padding: 10%; */
+}
+
+.button {
+    background-color: blueviolet;
+    border-radius: 6px solid blueviolet;
+    width: 100px;
+    height: 40px;
+    color: white;
+}
+.list-svg {
+    text-align: start;
+    margin-top: 10px;
+}
+
+.header {
+    text-align: start;
+}
+
+@media(max-width: 1200px){
+    .box {
+        width: 90%;
+    }
+}
+
+@media(max-width: 768px){
+    .box {
+        width: 90%;
+        height: 800px;
+    }
+}
